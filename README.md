@@ -4,8 +4,7 @@ A simple collection of Maven exercises for use in a 2-hour introductory training
 [Maven 3](https://maven.apache.org/download.cgi) or later installed. 
 
 You can find the instructions for each exercise below. The exercises build on each other, so you need to complete them
-in sequence. If you get stuck on an exercise the answers are available in branches, so for example: if you fail to get
-exercise1 working, just `git checkout answer1` and continue from there.
+in sequence.
 
 # Exercises
 
@@ -47,7 +46,6 @@ Once you have this properly configured your build should succeed:
 
 You can run one of the examples with: `java -cp target/maven-exercises-1.0.0-SNAPSHOT.jar za.co.entelect.forums.java.prac.task1.ColorSpotter`.
 
-Answer: `git checkout answer1` 
 
 ## Exercise 2: Repositories
 
@@ -153,7 +151,6 @@ Downloaded: http://esjavatools:8080/artifactory/libs-release/com/badlogicgames/g
 
 Note how Maven now downloads the artefacts from your repository manager, greatly speeding up the build.
 
-Answer: `git checkout answer2`
 
 ## Exercise 3: Tests
 
@@ -207,7 +204,6 @@ Then update your `pom.xml` to use `junit:4.12` and use your IDE to add the missi
 
 Now run `mvn clean test` to make sure your changes are working.  
 
-Answer: `git checkout answer3`
 
 ## Exercise 4: Multi-module Web Project
 
@@ -507,4 +503,3 @@ If all went well you should now be able to build and run your web application:
  * `mvn tomcat:run`
  * Then visit: http://locahost:8080/web/
 
-Exercise: `git checkout answer4`
